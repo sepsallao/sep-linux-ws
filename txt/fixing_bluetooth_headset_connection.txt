@@ -1,0 +1,1000 @@
+  620  cat ssh_gen_key.sh 
+  621  ./ssh_gen_key.sh 
+  622  git clone git@github.com:sepsallao/journey.git
+  623  ls
+  624  clear
+  625  ls
+  626  mv journey/ ~
+  627  ls
+  628  clear
+  629  cd ..
+  630  ls
+  631  clear
+  632  cd ..
+  633  ls
+  634  clear
+  635  ls
+  636  cd journey
+  637  ls
+  638  clear
+  639  rm -rf *
+  640  ls
+  641  ls -lhat
+  642  clear
+  643  ls
+  644  cd ..
+  645  ls
+  646  clear
+  647  ls
+  648  mv journey_local/* journey
+  649  ls
+  650  clear
+  651  cd journey
+  652  ls
+  653  git status
+  654  ls
+  655  clear
+  656  ls
+  657  git status
+  658  ls
+  659  clear
+  660  ls
+  661  cd ..
+  662  ls
+  663  clear
+  664  ls
+  665  rm journey_earlier/
+  666  rm -rf journey_earlier/
+  667  ls
+  668  clear
+  669  ls
+  670  ls -lhat journey_local/
+  671  rm journey_local/
+  672  rm -rf journey_local/
+  673  ls
+  674  clear
+  675  ls
+  676  cd journey/
+  677  ls
+  678  clear
+  679  ls
+  680  clear
+  681  ls
+  682  cd sh/
+  683  ls
+  684  clear
+  685  ls
+  686  nvim all.sh 
+  687  ls
+  688  clear
+  689  ls
+  690  ./all.sh
+  691  sudo ./all.sh
+  692  ls
+  693  clear
+  694  ls
+  695  ls -lhat
+  696  chmod u+x *
+  697  ls
+  698  clear
+  699  ls
+  700  clear
+  701  ls
+  702  ./all.sh 
+  703  ls
+  704  clear
+  705  ls
+  706  nvim all.sh 
+  707  ./all.sh 
+  708  clear
+  709  ls
+  710  clear
+  711  ls
+  712  mv brave.sh browser.sh
+  713  ls
+  714  clear
+  715  cat browser.sh 
+  716  ls
+  717  nvim browser.sh 
+  718  ls
+  719  cat code.sh 
+  720  ./code.sh 
+  721  clear
+  722  ls
+  723  clear
+  724  rm code.sh 
+  725  ls
+  726  clear
+  727  ls
+  728  rm leftwm.sh 
+  729  ls
+  730  clear
+  731  ls
+  732  cat network.sh 
+  733  cat readme.md 
+  734  :q
+  735  ls
+  736  clear
+  737  ls
+  738  cd resources/
+  739  ls
+  740  cd ..
+  741  ls
+  742  rm resources/
+  743  rm -r resources/
+  744  ls
+  745  clear
+  746  ls
+  747  rm rust.sh 
+  748  ls
+  749  clear
+  750  ls
+  751  clear
+  752  ls
+  753  mv telegram.sh chat.sh
+  754  ls
+  755  clear
+  756  ls
+  757  mv ly.sh display_manager.sh
+  758  ls
+  759  clear
+  760  ls
+  761  clear
+  762  ls
+  763  cd ..
+  764  ls
+  765  clear
+  766  git status
+  767  git add .
+  768  git commit -m "transition to llao_deb_dwm_ly_sep journey"
+  769  git config --global user.email dev@sepsallao.com
+  770  git config --global user.name sepsallao
+  771  git commit -m "transition to llao_deb_dwm_ly_sep journey"
+  772  git push
+  773  ls
+  774  clear
+  775  l
+  776  ls
+  777  clear
+  778  ls
+  779  cd sh/
+  780  ls
+  781  clear
+  782  ls
+  783  clear
+  784  ls
+  785  cat network.sh 
+  786  ifconfig
+  787  history
+  788  clear
+  789  ls
+  790  clear
+  791  ls
+  792  nvim all.sh 
+  793  ./all.sh 
+  794  ls
+  795  clear
+  796  nvim all.sh 
+  797  ./all.sh 
+  798  clear
+  799  ls
+  800  clear
+  801  reboot
+  802  sudo reboot
+  803  ls
+  804  clear
+  805  ls
+  806  cd journey/
+  807  ls
+  808  clear
+  809  git add .
+  810  git commit -m "added viber steps, and acpi and acpid"
+  811  git push
+  812  clear
+  813  ls
+  814  git log
+  815  clear
+  816  ls
+  817  cd ..
+  818  ls
+  819  clear;s
+  820  c;ear
+  821  clear
+  822  ls
+  823  nvim journey/sh/all.sh 
+  824  cd journey/sh/
+  825  ls
+  826  ./all.sh 
+  827  sudo reboot
+  828  ls
+  829  clear
+  830  cd journey/
+  831  ls
+  832  clear
+  833  ls
+  834  cd sh/
+  835  ls
+  836  clear
+  837  nvim all.sh 
+  838  ./all.sh 
+  839  sudo reboot
+  840  ls
+  841  clear
+  842  ls
+  843  cd journey/
+  844  ls
+  845  clear
+  846  ls
+  847  cd sh/
+  848  ls
+  849  clear
+  850  ls
+  851  nvim all.sh 
+  852  ls
+  853  clear
+  854  cd journey/
+  855  ls
+  856  clear
+  857  cd sh/
+  858  ls
+  859  clear
+  860  ls
+  861  cat modem.sh 
+  862  cat network.sh 
+  863  ls
+  864  rm modem.sh 
+  865  ls
+  866  clear
+  867  ls
+  868  nvim network.sh 
+  869  git add . 
+  870  git commit -m "tulog na ako naka ready na network"
+  871  git push
+  872  sudo reboot
+  873  ls
+  874  clear
+  875  ls
+  876  clear
+  877  nvim .config/dwm-6.4/
+  878  nvim .config/dwm-6.4/config.h 
+  879  history | grep make
+  880  sudo make install
+  881  sudo make
+  882  cd .config/
+  883  ls
+  884  clear
+  885  cd dwm-6.4/
+  886  sudo make install
+  887  clear
+  888  ls
+  889  clear
+  890  nvim config.h
+  891  ls
+  892  clear
+  893  cd .config/dwm-6.4/
+  894  clear
+  895  ls
+  896  nvim config.h 
+  897  sudo make install
+  898  nvim config.h 
+  899  sudo make install
+  900  reboot
+  901  sudo reboot
+  902  sudo nala update
+  903  ls
+  904  clear
+  905  ls
+  906  clear
+  907  ls
+  908  cd .config/
+  909  ls
+  910  clear
+  911  ls
+  912  htop
+  913  clear
+  914  ifconfig
+  915  ls
+  916  clear
+  917  ls
+  918  clear
+  919  git clone 
+  920  clear
+  921  git clone https://github.com/drewgrif/bookworm-scripts.git
+  922  ls
+  923  cd bookworm-scripts/
+  924  ls
+  925  nvim installer.sh 
+  926  l
+  927  ls
+  928  cd ..
+  929  ls
+  930  clear
+  931  cd journey/
+  932  ls
+  933  clear
+  934  ls
+  935  nvim sh/network.sh 
+  936  ls
+  937  cd sh/
+  938  ls
+  939  ./network.sh 
+  940  clear
+  941  ls
+  942  clear
+  943  ls
+  944  cd journey/
+  945  ls
+  946  clear
+  947  ls
+  948  git add .
+  949  git status
+  950  ls
+  951  clear
+  952  ls
+  953  cd /etc/NetworkManager/
+  954  ls
+  955  nvim NetworkManager.conf 
+  956  sudo nvim NetworkManager.conf 
+  957  sudo reboot
+  958  nmcli 
+  959  nmcli device show
+  960  ifconfig
+  961  nmtui
+  962  clear
+  963  nmcli
+  964  clear
+  965  ls
+  966  clear
+  967  ls
+  968  ping google.com
+  969  ks
+  970  ls
+  971  clear
+  972  ls
+  973  nmtui
+  974  clear
+  975  ls
+  976  nm-applet 
+  977  nm-connection-editor 
+  978  ls
+  979  clear
+  980  ls
+  981  cd journey/
+  982  ls
+  983  clear
+  984  ls
+  985  cd sh/
+  986  ls
+  987  clear
+  988  ls
+  989  nvim network.sh 
+  990  nmcli
+  991  ./network.sh 
+  992  mbimcli 
+  993  ls
+  994  nvim network.sh 
+  995  ls
+  996  ./network.sh 
+  997  ls
+  998  nvim network.sh 
+  999  clear
+ 1000  sudo mbimcli -p -d /dev/cdc-wdm0 --quectel-query-radio-state
+ 1001  nmtui
+ 1002  lc
+ 1003  clear
+ 1004  sudo mbimcli -p -d /dev/cdc-wdm0 --quectel-set-radio-state=on
+ 1005  nmtui
+ 1006  ls
+ 1007  cd journey/
+ 1008  ls
+ 1009  clear
+ 1010  ls
+ 1011  cd sh/
+ 1012  ls
+ 1013  clear
+ 1014  nvim network.sh 
+ 1015  ks
+ 1016  ping google.com
+ 1017  clear
+ 1018  ls
+ 1019  nvim bluetooth.sh 
+ 1020  cp bluetooth.sh printer.sh
+ 1021  ls
+ 1022  nvim printer.sh 
+ 1023  nvim bluetooth.sh 
+ 1024  ./bluetooth.sh 
+ 1025  blueman-applet 
+ 1026  blueman-manager 
+ 1027  ./printer.sh 
+ 1028  ls
+ 1029  clear
+ 1030  ls
+ 1031  nvim all.sh 
+ 1032  ./all.sh 
+ 1033  reboot
+ 1034  sudo reboot
+ 1035  ls
+ 1036  ;ls
+ 1037  nvim journey/sh/a
+ 1038  nvim journey/sh/all.sh 
+ 1039  ls
+ 1040  clear
+ 1041  ls
+ 1042  dpkg -L picom
+ 1043  ls
+ 1044  clear
+ 1045  mkdir .config/picom
+ 1046  ls
+ 1047  clear
+ 1048  ls
+ 1049  dpkg -L picom
+ 1050  cp /usr/share/doc/picom/examples/picom.sample.conf ~/.config/picom/picom.conf
+ 1051  ls
+ 1052  cd .config/
+ 1053  ls
+ 1054  clear
+ 1055  ls
+ 1056  cd picom/
+ 1057  ls
+ 1058  nvim picom.conf 
+ 1059  xprop 
+ 1060  clear
+ 1061  ls
+ 1062  nvim picom.conf 
+ 1063  nvim 
+ 1064  nvim picom.conf 
+ 1065  nvim 
+ 1066  nvim picom.conf
+ 1067  ls
+ 1068  cat picom.conf_backup > picom.conf
+ 1069  nvim picom.conf
+ 1070  picom --experimental-backends -b
+ 1071  reboot
+ 1072  sudo reboot
+ 1073  xprop 
+ 1074  ls
+ 1075  cear
+ 1076  ls
+ 1077  cd journey/
+ 1078  ls
+ 1079  clear
+ 1080  ls
+ 1081  git status
+ 1082  git add .
+ 1083  git commit -m "many added and reopen"
+ 1084  git push
+ 1085  ls
+ 1086  cd sh/
+ 1087  ls
+ 1088  clear
+ 1089  ls
+ 1090  cp bluetooth.sh cpu.sh
+ 1091  cp bluetooth.sh gpu.sh
+ 1092  ls
+ 1093  clear
+ 1094  ls
+ 1095  clear
+ 1096  xrandr 
+ 1097  picom
+ 1098  clear
+ 1099  ls
+ 1100  clear
+ 1101  nvim all.sh 
+ 1102  ./all.sh 
+ 1103  ls
+ 1104  clear
+ 1105  ls
+ 1106  cd
+ 1107  ls
+ 1108  clear
+ 1109  cd .c
+ 1110  cd .config/
+ 1111  ls
+ 1112  clear
+ 1113  ls
+ 1114  cd
+ 1115  ls
+ 1116  cler
+ 1117  git clone https://github.com/ericmurphyxyz/dotfiles.git
+ 1118  ls
+ 1119  clear
+ 1120  ls
+ 1121  cd dotfiles/
+ 1122  ls
+ 1123  ls -lhat
+ 1124  cd .config/
+ 1125  ls
+ 1126  clear
+ 1127  ls
+ 1128  cd picom/
+ 1129  ls
+ 1130  nvim picom.conf 
+ 1131  cp picom.conf  ~/.config/picom/picom.conf_git
+ 1132  ls
+ 1133  clear
+ 1134  ls
+ 1135  cd ~
+ 1136  ls
+ 1137  clear
+ 1138  cd .config/
+ 1139  ls
+ 1140  cd p
+ 1141  cd picom/
+ 1142  ls
+ 1143  clear
+ 1144  ls
+ 1145  cp picom.conf picom.conf_backup
+ 1146  ls
+ 1147  clear
+ 1148  ls
+ 1149  cat picom.conf_git > picom.conf
+ 1150  ls
+ 1151  clear
+ 1152  nvim picom.conf
+ 1153  ls
+ 1154  clear
+ 1155  ls -lhat
+ 1156  nvim picom.conf_git 
+ 1157  nvim picom.conf_backup 
+ 1158  nvim picom.conf
+ 1159  clear
+ 1160  nvim picom.conf
+ 1161  sudo rm ~/.local/share/nvim/swap//%home%seps%.config%picom%picom.conf.swp
+ 1162  nvim picom.conf
+ 1163  ls
+ 1164  clear
+ 1165  ls
+ 1166  cd journey/
+ 1167  ls
+ 1168  clear
+ 1169  ls
+ 1170  feh --help
+ 1171  man feh
+ 1172  ls
+ 1173  clear
+ 1174  nvim sh/
+ 1175  man feh
+ 1176  clear
+ 1177  sudo reboot
+ 1178  cd journey/
+ 1179  ls
+ 1180  feh --bg-fill bg/thinkpad-mountain.jpg 
+ 1181  history
+ 1182  picom --expiremental-backends -b
+ 1183  picom --experimental-backends -b
+ 1184  feh --bg-fill bg/thinkpad-mountain.jpg 
+ 1185  feh --bg-fill ~/.config/bg/thinkpad-mountain.jpg 
+ 1186  feh --bg-fill ~/journey/bg/thinkpad-mountain.jpg 
+ 1187  picom -b
+ 1188  nvim .config/dwm-6.4/
+ 1189  nvim .config/dwm-6.4/config.h 
+ 1190  ls -lhat
+ 1191  nvim .profile 
+ 1192  clear
+ 1193  ls
+ 1194  clear
+ 1195  dpkg -L dwm
+ 1196  nvim /usr/share/xsessions/dwm.desktop 
+ 1197  ls
+ 1198  cd .config/
+ 1199  ls
+ 1200  clear
+ 1201  ls
+ 1202  cd dwm-6.4/
+ 1203  ls
+ 1204  cd ..
+ 1205  l
+ 1206  ls
+ 1207  clear
+ 1208  cd
+ 1209  ls
+ 1210  clear
+ 1211  ls -lhat
+ 1212  nvim .sudo_as_admin_successful 
+ 1213  cat .sudo_as_admin_successful 
+ 1214  clear
+ 1215  ls
+ 1216  rm .sudo_as_admin_successful 
+ 1217  ls
+ 1218  clear
+ 1219  ls -lhat
+ 1220  nmcli 
+ 1221  sudo reboot
+ 1222  xbacklight 
+ 1223  cd /etc/X11/
+ 1224  LS
+ 1225  ls
+ 1226  clear
+ 1227  cd xinit/
+ 1228  ls
+ 1229  nvim xinitrc 
+ 1230  lspci -nnk | grep -i -EA3 "3d|display|vga"
+ 1231  echo 'hello'
+ 1232  'lspci -nnk | grep -i -EA3 "3d|display|vga"'
+ 1233  ls
+ 1234  cd ..
+ 1235  ls
+ 1236  cd xorg.conf.d/
+ 1237  ls
+ 1238  clear
+ 1239  cd ..
+ 1240  ls
+ 1241  clear
+ 1242  ls
+ 1243  ls -lhat /usr/bin/
+ 1244  l
+ 1245  ls
+ 1246  clear
+ 1247  ls
+ 1248  'lspci -nnk | grep -i -EA3 "3d|display|vga"'
+ 1249  lspci -nnk | grep -i -EA3 "3d|display|vga"
+ 1250  dpkg -L amd64-microcode 
+ 1251  dpkg -L amdgpu
+ 1252  clear
+ 1253  lspci -nnk | grep -i -EA3 "3d|display|vga"
+ 1254  mv --help
+ 1255  man mv
+ 1256  clear
+ 1257  ls
+ 1258  cp xorg.conf.d ~/.config/xorg.conf.d_backup
+ 1259  cp -r xorg.conf.d ~/.config/xorg.conf.d_backup
+ 1260  ls
+ 1261  clear
+ 1262  ls
+ 1263  ls ~/.config/
+ 1264  ls
+ 1265  clear
+ 1266  ls
+ 1267  cd xorg.conf.d/
+ 1268  ls
+ 1269  touch 20-amdgpu.conf
+ 1270  sudo touch 20-amdgpu.conf
+ 1271  ls
+ 1272  clear
+ 1273  ls
+ 1274  clear
+ 1275  ls | grep 20-amdgpu.conf
+ 1276  ls
+ 1277  clear
+ 1278  nvim 20-amdgpu.conf 
+ 1279  sudo nvim 20-amdgpu.conf 
+ 1280  sudo reboot
+ 1281  ls
+ 1282  clear
+ 1283  ls
+ 1284  clear
+ 1285  cd /etc/X11/
+ 1286  ls
+ 1287  clear
+ 1288  ls
+ 1289  cd xorg.conf.d/
+ 1290  ls
+ 1291  clear
+ 1292  cd ..
+ 1293  ls
+ 1294  clear
+ 1295  ls
+ 1296  clear
+ 1297  cd xorg.conf.d/
+ 1298  ls
+ 1299  clear
+ 1300  ls
+ 1301  pwd
+ 1302  ls
+ 1303  cd journey/
+ 1304  ls
+ 1305  clear
+ 1306  ls
+ 1307  cd sh/
+ 1308  ls
+ 1309  clear
+ 1310  ls
+ 1311  cd ..
+ 1312  ls
+ 1313  clear
+ 1314  ls
+ 1315  clear
+ 1316  ls
+ 1317  cd sh/
+ 1318  ls
+ 1319  nvim gpu.sh 
+ 1320  ls
+ 1321  clear
+ 1322  ls
+ 1323  nvim gpu.sh 
+ 1324  ls
+ 1325  cd ..
+ 1326  ls
+ 1327  clear
+ 1328  git status
+ 1329  git add .
+ 1330  git commit -m "added amdgpu"
+ 1331  git push
+ 1332  ls
+ 1333  clear
+ 1334  ls
+ 1335  cd .config/
+ 1336  ls
+ 1337  clear
+ 1338  mv xorg.conf.d_backup/ ~/journey/
+ 1339  ls
+ 1340  clear
+ 1341  cd
+ 1342  ls
+ 1343  clear
+ 1344  cd journey/
+ 1345  ls
+ 1346  clear
+ 1347  ls
+ 1348  mv xorg.conf.d_backup/ xorg.conf.d
+ 1349  ls
+ 1350  clear
+ 1351  ls
+ 1352  cd dot/
+ 1353  ls
+ 1354  cd ..
+ 1355  ls
+ 1356  cd dot/
+ 1357  rm alacritty/
+ 1358  ls
+ 1359  clear
+ 1360  cd ..
+ 1361  ls
+ 1362  clear
+ 1363  ls
+ 1364  mkdir conf
+ 1365  ls
+ 1366  clear
+ 1367  mv xorg.conf.d/ conf/
+ 1368  ls
+ 1369  clear
+ 1370  cd conf/
+ 1371  ls
+ 1372  clear
+ 1373  ls
+ 1374  cd ..
+ 1375  ls
+ 1376  clear
+ 1377  ls
+ 1378  cd conf/
+ 1379  ls
+ 1380  cd xorg.conf.d/
+ 1381  ls
+ 1382  cd ..
+ 1383  ls
+ 1384  rm xorg.conf.d/
+ 1385  rm -rf xorg.conf.d/
+ 1386  ls
+ 1387  clear
+ 1388  ls
+ 1389  cp /etc/X11/xorg.conf.d .
+ 1390  cp -r /etc/X11/xorg.conf.d .
+ 1391  ls
+ 1392  clear
+ 1393  ls
+ 1394  cd xorg.conf.d/
+ 1395  ls
+ 1396  clear
+ 1397  ls
+ 1398  cd ..
+ 1399  ls
+ 1400  clear
+ 1401  ls
+ 1402  cd ..
+ 1403  ls
+ 1404  clear
+ 1405  ls
+ 1406  clear
+ 1407  ls
+ 1408  clear
+ 1409  sudo poweroff
+ 1410  sudo reboot
+ 1411  ks
+ 1412  ls
+ 1413  clear
+ 1414  ls
+ 1415  cd journey/
+ 1416  ls
+ 1417  clear
+ 1418  ls
+ 1419  cd 
+ 1420  ls
+ 1421  clear
+ 1422  ls
+ 1423  cd .config/
+ 1424  ls
+ 1425  clear
+ 1426  ls
+ 1427  cd dwm-6.4/
+ 1428  ls
+ 1429  clear
+ 1430  nvim config.h 
+ 1431  sudo make install
+ 1432  nvim config.
+ 1433  nvim config.h
+ 1434  sudo make install
+ 1435  ls
+ 1436  nvim config.h 
+ 1437  sudo make install
+ 1438  clear
+ 1439  sudo make install
+ 1440  ls
+ 1441  clear
+ 1442  ls
+ 1443  man dwm
+ 1444  ls
+ 1445  clear
+ 1446  ls
+ 1447  clear
+ 1448  sudo nala search sxhkd
+ 1449  clear
+ 1450  ls
+ 1451  clear
+ 1452  ls
+ 1453  cd ..
+ 1454  ls
+ 1455  cd
+ 1456  ls
+ 1457  clear
+ 1458  ls
+ 1459  cd bookworm-scripts/
+ 1460  ls
+ 1461  clear
+ 1462  ls
+ 1463  cd ..
+ 1464  ls
+ 1465  clear
+ 1466  ls
+ 1467  cd bookworm-scripts/
+ 1468  lsc
+ 1469  ls
+ 1470  nvim installer.sh 
+ 1471  cd ..
+ 1472  ls
+ 1473  cd journey/
+ 1474  ls
+ 1475  clear
+ 1476  ls
+ 1477  cd sh/
+ 1478  ls
+ 1479  clear
+ 1480  nvim all.sh 
+ 1481  ls
+ 1482  clear
+ 1483  cd .config/
+ 1484  ls
+ 1485  clear
+ 1486  ls
+ 1487  clear
+ 1488  ls
+ 1489  clear
+ 1490  cat .bashrc 
+ 1491  cd journey/
+ 1492  ls
+ 1493  clear
+ 1494  cd sh/
+ 1495  ls
+ 1496  nvim all.sh 
+ 1497  ./all.sh 
+ 1498  exa -al --long --header --color=always --group-directories-first
+ 1499  nvim ~/.bashrc 
+ 1500  source ~/.bashrc 
+ 1501  ls
+ 1502  clear
+ 1503  ls
+ 1504  nvim all.sh 
+ 1505  ./all.sh 
+ 1506  sudo nala upgrade
+ 1507  ls
+ 1508  git add .
+ 1509  git commit -m "dunst and exa" 
+ 1510  git push
+ 1511  ls
+ 1512  clear
+ 1513  ls
+ 1514  cp bluetooth.sh exa.sh
+ 1515  ls
+ 1516  clear
+ 1517  ls
+ 1518  nvim exa.sh 
+ 1519  clear
+ 1520  ls
+ 1521  clear
+ 1522  ls
+ 1523  git add .
+ 1524  git commit -m "taken exa outside of all.sh"
+ 1525  git push
+ 1526  clear
+ 1527  ls
+ 1528  clear
+ 1529  sudo reboot
+ 1530  brave-browser
+ 1531  ls
+ 1532  clear
+ 1533  cd /etc/X11/
+ 1534  ls
+ 1535  cd xinit/
+ 1536  ls
+ 1537  clear
+ 1538  ls
+ 1539  nvim xinitrc 
+ 1540  ls
+ 1541  clear
+ 1542  ls
+ 1543  l
+ 1544  ls
+ 1545  ll
+ 1546  clear
+ 1547  ls
+ 1548  history | grep picom
+ 1549  sudo poweroff
+ 1550  whereis poweroff
+ 1551  ls /usr/sbin/poweroff 
+ 1552  ls /bin
+ 1553  :q
+ 1554  sudo poweroff
+ 1555  ls
+ 1556  cd .config/
+ 1557  ks
+ 1558  ls
+ 1559  clear
+ 1560  ls
+ 1561  cd kitty/
+ 1562  ls
+ 1563  kitty --help
+ 1564  ls
+ 1565  cd .config/
+ 1566  ls
+ 1567  cd kitty/
+ 1568  ls
+ 1569  clear
+ 1570  ls
+ 1571  clear
+ 1572  kitty -c /home/seps/.config/kitty/
+ 1573  kitty -c /home/seps/.config/kitty/kitty.conf
+ 1574  iwconfig
+ 1575  dmesg -l err,warn
+ 1576  sudo dmesg -l err,warn
+ 1577  upower -i
+ 1578  upower -i /org/freedesktop/UPower/devices/battery_BAT0
+ 1579  sudo reboot
+ 1580  dmesg
+ 1581  sudo dmesg
+ 1582  sudo dmesg | grep blue
+ 1583  bluetoothctl 
+ 1584  suod nala reinstall pipewire pipewire-pulse
+ 1585  sudo nala reinstall pipewire pipewire-pulse
+ 1586  sudo apt reinstall pipewire pipewire-pulse
+ 1587  sudo systemctl --user --now enable pipewire pipewire-pulse
+ 1588  systemctl --user --now enable pipewire pipewire-pulse
+ 1589  sudo bluetoothctl 
+ 1590  clear
+ 1591  ls
+ 1592  clear
+ 1593  ls
+ 1594  clear
+ 1595  ls
+ 1596  sudo bluetoothctl 
+ 1597  clear
+ 1598  ls
+ 1599  clear
+ 1600  sudo nala install bluez dbus libspa-bluetooth blueman bluez-alsa-32bit bluez-alsa pipewire
+ 1601  sudo nala search libspa-bluetooth
+ 1602  sudo nala search libspa-0.2-bluetooth
+ 1603  sudo nala install libspa-0.2-bluetooth
+ 1604  sudo nala search alsa-pipewire
+ 1605  sudo nala search alsa 
+ 1606  sudo nala search alsa | pipewire
+ 1607  sudo nala search alsa | grep pipewire
+ 1608  sudo nala search pipewire-alsa
+ 1609  sudo nala search pipewire-jack
+ 1610  sudo nala install pipewire-alsa pipewire-audio-client-libraries
+ 1611  clear
+ 1612  sudo reboot
+ 1613  ls
+ 1614  clear
+ 1615  ls
+ 1616  clear
+ 1617  ls
+ 1618  history 
+ 1619  history > fixing_bluetooth_headset_connection.txt
