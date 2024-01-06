@@ -1,4 +1,4 @@
-# suckless_debian
+# Workstation: Suckless Debian
 Hi I'm Sep, and this is my version of Debian that doesn't suck. 
 
 This is forked from JustAGuy Linux repo: https://github.com/drewgrif/dwm-debian 
