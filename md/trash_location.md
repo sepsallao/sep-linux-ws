@@ -1,1 +1,0 @@
-/home/seps/.local/share/Trash/files
