@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 ################# name #################
-./sh/dep/name.sh
-
+./sh/dep/1_name.sh
 
 printf "\e[1;32mThis script is now starting.\e[0m\n\n"
 printf "\e[1;32mFor someone who will use this script, this is a project for\e[0m\n"
@@ -11,11 +10,9 @@ printf "\e[1;32mThis script will install suckless stuff mainly for\e[0m\n"
 printf "\e[1;32mDWM in DEBIAN!\e[0m\n\n"
 
 ################# dep #################
-./sh/dep/update.sh
-./sh/dep/chmod.sh
-./sh/dep/upgrade.sh
-
-################# dep #################
+./sh/dep/2_update.sh
+./sh/dep/3_upgrade.sh
+./sh/dep/4_ssh_gen_key.sh
 
 ################# hw #################
 
