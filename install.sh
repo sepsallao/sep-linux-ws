@@ -51,14 +51,18 @@ sudo apt install -y exa
 # sudo systemctl enable cups
 
 # Browser Installation (eg. chromium)
-sudo apt install -y firefox-esr 
+# sudo apt install -y firefox-esr 
 
-sudo apt install curl
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
+# sudo apt install curl
+# sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+# echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+# sudo apt update
 
-sudo apt install brave-browser
+# sudo apt install brave-browser
+
+sudo apt install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 
 # Desktop background browser/handler 
 # feh --bg-fill /path/to/directory 
