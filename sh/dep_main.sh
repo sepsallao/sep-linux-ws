@@ -17,9 +17,6 @@ sudo systemctl enable acpid
 # For Ly Display Manager
 sudo nala install libpam0g-dev libxcb-xkb-dev
 
-# Thunar
-sudo nala install -y thunar thunar-archive-plugin thunar-volman file-roller
-
 # Tree
 sudo nala -y install tree
 
@@ -51,3 +48,4 @@ sudo nala install -y neofetch
 
 # \cp ~/bookworm-scripts/resources/.bashrc ~
 exit
+

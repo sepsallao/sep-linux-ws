@@ -50,19 +50,7 @@ sudo apt install -y exa
 # sudo systemctl enable bluetooth
 # sudo systemctl enable cups
 
-# Browser Installation (eg. chromium)
-# sudo apt install -y firefox-esr 
 
-# sudo apt install curl
-# sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-# echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-# sudo apt update
-
-# sudo apt install brave-browser
-
-sudo apt install libxss1 libappindicator1 libindicator7
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
 
 # Desktop background browser/handler 
 # feh --bg-fill /path/to/directory 
@@ -83,53 +71,10 @@ sudo apt install fonts-font-awesome fonts-ubuntu fonts-liberation2 fonts-liberat
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
 
-# Install Lightdm Console Display Manager
-# sudo apt install -y lightdm lightdm-gtk-greeter-settings slick-greeter
-# sudo systemctl enable lightdm
-# echo 'greeter-session=slick-greeter' >>  sudo tee -a /etc/lightdm/lightdm.conf
-# echo 'greeter-hide-user=false' >>  sudo tee -a /etc/lightdm/lightdm.conf
-
-# Ly Console Manager
-# Needed packages
-sudo apt install -y libpam0g-dev libxcb-xkb-dev
-cd 
-git clone --recurse-submodules https://github.com/fairyglade/ly
-cd ly
-make
-sudo make install installsystemd
-sudo systemctl enable ly.service
 
 
-# XSessions and dwm.desktop
-if [[ ! -d /usr/share/xsessions ]]; then
-    sudo mkdir /usr/share/xsessions
-fi
-
-cat > ./temp << "EOF"
-[Desktop Entry]
-Encoding=UTF-8
-Name=dwm
-Comment=Dynamic window manager
-Exec=dwm
-Icon=dwm
-Type=XSession
-EOF
-sudo cp ./temp /usr/share/xsessions/dwm.desktop;rm ./temp
 
 
-# Creating directories
-mkdir ~/.config/suckless
-
-sudo apt install -y libx11-dev
-
-# Move install directory, make, and install
-cd ~/.config/suckless
-tools=( "dwm" "dmenu" "st" "slstatus" "slock" "tabbed" )
-for tool in ${tools[@]}
-do 
-	git clone git://git.suckless.org/$tool
-	cd ~/.config/suckless/$tool;make;sudo make clean install;cd ..
-done
 
 
 
