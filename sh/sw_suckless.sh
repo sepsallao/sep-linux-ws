@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
-# install dwm
-# sudo nala install dwm
 
-sudo apt install -y libx11-dev
+printf "\e[1;32m ----------------------------------------------------------------------------- \e[0m\n\n"
+printf "\e[1;32mSUCKLESS\e[0m\n\n"
 
 # XSessions and dwm.desktop
 if [[ ! -d /usr/share/xsessions ]]; then
@@ -36,3 +35,5 @@ do
 done
 
 echo "END SUCKLESS"
+
+exit

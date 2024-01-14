@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-echo "START WLAN"
+printf "\e[1;32m ----------------------------------------------------------------------------- \e[0m\n\n"
+printf "\e[1;32mWLAN\e[0m\n\n"
 
-sudo nala install -y policykit-1-gnome network-manager network-manager-gnome
+sudo nala install -y network-manager network-manager-gnome
 
-echo "END WLAN"
+
+exit

@@ -1,48 +1,37 @@
 #!/usr/bin/env bash
 
-echo "START NEOVIM"
+printf "\e[1;32m ----------------------------------------------------------------------------- \e[0m\n\n"
+printf "\e[1;32mText Editor\e[0m\n\n"
 
-sudo nala install neovim
+sudo nala install -y neovim
 
 echo "END NEOVIM"
 
+# echo "START VSCODE"
 
-#!/bin/bash
-#Build prerequisites
-sudo apt install ninja-build gettext cmake unzip curl
+# # Visual Studio Code
+# # Link:
+# # https://code.visualstudio.com/docs/setup/linux
 
-# clone
-git clone https://github.com/neovim/neovim
-cd neovim
-git checkout stable
-make CMAKE_BUILD_TYPE=RelWithDebInfo
-cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
+# sudo nala update
 
-# Retrieve https://github.com/junegunn/vim-plug
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-    
-cp -r ./resources/nvim ~/.config/
-nvim
+# sudo nala install wget gpg
+# wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+# sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+# sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+# rm -f packages.microsoft.gpg
 
-#!/usr/bin/env bash
+# sudo nala install apt-transport-https
+# sudo nala update
+# sudo nala install code # or code-insiders
 
-echo "START VSCODE"
+# echo "END VSCODE"
 
-# Visual Studio Code
-# Link:
-# https://code.visualstudio.com/docs/setup/linux
 
-sudo nala update
+# geany ide
+# sudo nala install -y geany geany-plugin-addons geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-vimode 
 
-sudo nala install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-rm -f packages.microsoft.gpg
+# Simple text editor forked from Leafpad
+# sudo nala install -y l3afpad
 
-sudo nala install apt-transport-https
-sudo nala update
-sudo nala install code # or code-insiders
-
-echo "END VSCODE"
+exit

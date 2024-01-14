@@ -10,37 +10,61 @@ printf "\e[1;32mThis script will Suckless Debian\e[0m\n"
 
 
 # # installation
-# printf "\e[1;32m################# Dependencies #################\e[0m\n\n"
+printf "\e[1;32m################# Dependencies #################\e[0m\n\n"
 
 
 ./sh/dep_update.sh
 ./sh/dep_upgrade.sh
-# ./sh/dep_main.sh
+./sh/dep_main.sh
 # ./sh/dep_printer.sh
 
 
-# printf "\e[1;32m################# Hardware #################\e[0m\n\n"
+printf "\e[1;32m################# Hardware #################\e[0m\n\n"
+
 
 # ./sh/hw_ex_keyboard.sh
-# ./sh/hw_ex_sounds.sh
+./sh/hw_ex_sounds.sh
 # ./sh/hw_in_battery.sh
-# ./sh/hw_in_gpu.sh
-# ./sh/hw_in_net_bt.sh
-# ./sh/hw_in_net_wlan.sh
+./sh/hw_in_gpu.sh
+./sh/hw_in_net_bt.sh
+./sh/hw_in_net_wlan.sh
 
 
-# printf "\e[1;32m################# Software #################\e[0m\n\n"
+printf "\e[1;32m################# Software #################\e[0m\n\n"
 
-# ./sh/sw_browser.sh
-# ./sh/sw_text_editor.sh
-# ./sh/sw_terminal.sh
-# ./sh/sw_file_manager.sh
-# ./sh/sw_display_manager.sh
-# ./sh/sw_suckless.sh
 
-# # remove
-# printf "\e[1;32m################# Removing #################\e[0m\n\n"
-# ./sh/dep/remove.sh
+./sh/sw_browser.sh
+./sh/sw_text_editor.sh
+./sh/sw_terminal.sh
+./sh/sw_file_manager.sh
+./sh/sw_display_manager.sh
+./sh/sw_suckless.sh
+
+
+printf "\e[1;32m################# Fonts and icons #################\e[0m\n\n"
+
+
+source ~/ws_sl_deb/sh/sw_fonts.sh
+
+
+printf "\e[1;32m################# Creation of User Directories #################\e[0m\n\n"
+
+
+xdg-user-dirs-update
+
+
+printf "\e[1;32m################# BASHRC #################\e[0m\n\n"
+
+
+cp ~/ws_sl_deb/.bashrc ~
+
+
+printf "\e[1;32m################# Removing #################\e[0m\n\n"
+
+
+./sh/dep/remove.sh
+
 
 printf "\n\e[1;32mYou can now reboot, Sep.\e[0m\n\n"
+
 exit

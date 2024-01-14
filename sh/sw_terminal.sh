@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-echo "START KITTY"
+printf "\e[1;32m ----------------------------------------------------------------------------- \e[0m\n\n"
+printf "\e[1;32mTerminal\e[0m\n\n"
 
 sudo nala -y install kitty
 
-echo "END KITTY
+exit
