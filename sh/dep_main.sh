@@ -122,6 +122,12 @@ sudo nala install -y whois
 # from neovim building and installation
 # sudo nala install -y ninja-build gettext
 
+# bluetooth and headset
+sudo nala install -y bluez dbus blueman bluez-alsa-32bit bluez-alsa libspa-0.2-bluetooth alsa-utils bluez-alsa-utils libasound2-plugin-bluez volumeicon-alsa
+
+# sounds
+sudo nala install -y pipewire wireplumber pipewire-pulse pavucontrol pipewire-alsa pipewire-jack pipewire-audio-client-libraries
+
 # suckless needs
 sudo nala install -y libx11-dev libglib2.0-dev libwebkit2gtk-4.0-dev libgcr-3-dev
 
