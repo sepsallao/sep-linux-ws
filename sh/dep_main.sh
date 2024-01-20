@@ -123,7 +123,7 @@ sudo nala install -y whois
 # sudo nala install -y ninja-build gettext
 
 # suckless needs
-sudo nala install -y libx11-dev
+sudo nala install -y libx11-dev libglib2.0-dev libwebkit2gtk-4.0-dev libgcr-3-dev
 
 # ly needs
 sudo nala install -y libpam0g-dev libxcb-xkb-dev
