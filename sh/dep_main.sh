@@ -123,7 +123,7 @@ sudo nala install -y whois
 # sudo nala install -y ninja-build gettext
 
 # bluetooth and headset
-sudo nala install -y bluez dbus blueman bluez-alsa-32bit bluez-alsa libspa-0.2-bluetooth alsa-utils bluez-alsa-utils libasound2-plugin-bluez volumeicon-alsa
+sudo nala install -y bluez dbus blueman libspa-0.2-bluetooth alsa-utils bluez-alsa-utils libasound2-plugin-bluez volumeicon-alsa
 
 # sounds
 sudo nala install -y pipewire wireplumber pipewire-pulse pavucontrol pipewire-alsa pipewire-jack pipewire-audio-client-libraries
