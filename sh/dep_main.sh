@@ -128,6 +128,9 @@ sudo nala install -y bluez dbus blueman libspa-0.2-bluetooth alsa-utils bluez-al
 # sounds
 sudo nala install -y pipewire wireplumber pipewire-pulse pavucontrol pipewire-alsa pipewire-jack pipewire-audio-client-libraries
 
+# Python and Pip
+sudo nala install -y python3.11 python3-pip
+
 # suckless needs
 sudo nala install -y libx11-dev libglib2.0-dev libwebkit2gtk-4.0-dev libgcr-3-dev
 
