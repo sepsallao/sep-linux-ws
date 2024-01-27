@@ -62,7 +62,7 @@ cp ~/ws_sl_deb/.bashrc ~
 printf "\e[1;32m################# Removing #################\e[0m\n\n"
 
 
-./sh/dep/remove.sh
+./remove.sh
 
 
 printf "\n\e[1;32mYou can now reboot, Sep.\e[0m\n\n"

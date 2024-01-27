@@ -26,7 +26,7 @@ sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
 
 # Read ntfs
-sudo nala install ntfs-3g
+sudo nala install -y ntfs-3g
 
 # File Manager (eg. pcmanfm,krusader)
 sudo nala install -y thunar
@@ -59,7 +59,7 @@ sudo nala install -y feh
 sudo nala install -y exa
 
 # Ly Display Manager Dependencies
-sudo nala install libpam0g-dev libxcb-xkb-dev
+sudo nala install -y libpam0g-dev libxcb-xkb-dev
 
 # Packages needed dwm after installation
 sudo nala install -y picom
