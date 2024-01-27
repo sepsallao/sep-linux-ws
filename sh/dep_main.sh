@@ -2,6 +2,10 @@
 printf "\e[1;32m ----------------------------------------------------------------------------- \e[0m\n\n"
 printf "\e[1;32mDEPENDENCIES\e[0m\n\n"
 
+# initial
+sudo apt install -y git timeshift nala
+sudo timeshift --create
+
 # xorg display server installation
 sudo nala install -y xorg xbacklight xbindkeys xvkbd xinput xorg-dev
 

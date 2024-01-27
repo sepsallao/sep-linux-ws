@@ -6,8 +6,10 @@ printf "\e[1;32mGPU\e[0m\n\n"
 # Copy 20-amdgpu conf file into xorg.conf.d directory
 # Let's check more how to improve gpu drivers in amd linux
 
-cp conf/xorg.conf.d/20-amdgpu.conf /etc/X11/xorg.conf.d/
+sudo cp config/xorg.conf.d/20-amdgpu.conf /etc/X11/xorg.conf.d/
 #  conf/xorg.conf.d/20-amdgpu.conf
 
+
+printf "\e[1;32mDone\e[0m\n\n"
 
 exit

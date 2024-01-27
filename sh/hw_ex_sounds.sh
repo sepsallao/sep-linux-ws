@@ -5,4 +5,7 @@ printf "\e[1;32mSounds\e[0m\n\n"
 
 systemctl --user --now enable pipewire pipewire-pulse wireplumber
 
+
+printf "\e[1;32mDone\e[0m\n\n"
+
 exit
