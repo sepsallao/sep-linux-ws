@@ -11,5 +11,5 @@ iface lo inet loopback
 auto wlp2s0
 allow-hotplug wlp2s0
 iface wlp2s0 inet dhcp
-	wpa-ssid bcc_OS_5Ghz
-	wpa-psk  bcc_OS@2204.
+	wpa-ssid <ssid_mo>
+	wpa-psk  <password_mo>
