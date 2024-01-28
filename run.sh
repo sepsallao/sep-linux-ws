@@ -27,7 +27,7 @@ printf "\e[1;32m################# Hardware #################\e[0m\n\n"
 # ./sh/hw_in_battery.sh
 ./sh/hw_in_gpu.sh
 ./sh/hw_in_net_bt.sh
-./sh/hw_in_net_wlan.sh
+# ./sh/hw_in_net_wlan.sh
 
 
 printf "\e[1;32m################# Software #################\e[0m\n\n"
