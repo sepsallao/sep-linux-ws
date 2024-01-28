@@ -30,5 +30,4 @@ do
 done
 fc-cache
 
-
 exit

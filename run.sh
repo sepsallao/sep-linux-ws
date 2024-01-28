@@ -56,7 +56,7 @@ xdg-user-dirs-update
 printf "\e[1;32m################# BASHRC #################\e[0m\n\n"
 
 
-cp ~/ws_sl_deb/.bashrc ~
+cp .bashrc ~
 
 
 printf "\e[1;32m################# Removing #################\e[0m\n\n"
