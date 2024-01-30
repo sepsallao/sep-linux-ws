@@ -142,6 +142,6 @@ sudo nala install -y libx11-dev libglib2.0-dev libwebkit2gtk-4.0-dev libgcr-3-de
 sudo nala install -y libpam0g-dev libxcb-xkb-dev
 
 # wlan and dwm? needs
-sudo nala install -y policykit-1-gnome 
+sudo nala install -y policykit-1-gnome
 
 exit
