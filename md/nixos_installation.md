@@ -10,9 +10,9 @@ $ setfont ter-v32n
 Just use wpa_supplicant.md
 ```
 
-> Correct time and date
+> Set Timezone
 ```
-timedatectl
+timedatectl set-timezone Asia/Manila
 ```
 
 > Create Partition
@@ -22,8 +22,12 @@ To list all available:
 
 $ fdisk -l
 ```
-```
+``` 
 Create Partition
 
 $ gdisk /dev/nvme0n1
 ```
+
+
+
+nixos-install --root /mnt
