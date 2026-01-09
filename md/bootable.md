@@ -5,9 +5,9 @@
 1. Plug in the USB flash drive.
 
 2. Find the corresponding device with:
-```
+~~~
 $ lsblk
-```
+~~~
 
 3. Make sure all partitions on the device are properly unmounted. Replace sdX with your device (e.g. sdb).
 
